@@ -1,0 +1,39 @@
+{
+  "options": {
+    "paths": {
+      "root": "./projects",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": ""
+    },
+    "domains": [
+      "localhost:8080",
+      "127.0.0.1:8080"
+    ],
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90,
+      "pngQuantization": false,
+      "png": 90
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false,
+    "serveStaticMaps": true
+  },
+  "styles": {
+    "basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
+    "osm-bright": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    }
+  }
+}

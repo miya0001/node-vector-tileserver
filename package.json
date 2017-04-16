@@ -1,0 +1,15 @@
+{
+  "name": "tileserver-gl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tileserver-gl-light japan.mbtiles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tileserver-gl-light": "^1.5.0"
+  }
+}
