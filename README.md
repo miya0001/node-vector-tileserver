@@ -6,3 +6,5 @@ $ cd node-vector-tileserver
 $ npm install
 $ npm start
 ```
+
+Then visit: [http://localhost:8080/](http://localhost:8080/).
